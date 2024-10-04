@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(242, 242, 242);
+}
+
+#mainSection {
+    margin: 0 5vw;
+}
+
+
+header {
+    /* position:fixed; */
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 12px 28px;
+    box-sizing: border-box;
+    z-index: 6;
+
+}
+
+.headerleft {
+    width: 60vw;
+    display: flex;
+    padding: 5px;
+
+}
+
+.searchinput {
+    border: none;
+    background-color: transparent;
+}
+
+input[type="search"] {
+
+    border: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+
+    display: none;
+}
+
+input {
+    outline: none;
+    border: 0;
+}
+
+.searchsection {
+    margin-left: 20px;
+    width: 60vw;
+    height: 40px;
+    background-color: rgb(233, 242, 252);
+    border-radius: 10px;
+
+}
+
+#searchIcon {
+    color: rgb(147, 147, 147);
+    margin: 0 10px 5px 0;
+
+}
+
+.searchbar {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 10px;
+
+}
+
+/* above left header part */
+
+.headerRight {
+    margin-top: 10px;
+    justify-content: space-around;
+    width: 40vw;
+    display: flex;
+    padding: 5px;
+
+}
+
+#login {
+    display: flex;
+}
+
+
+/* all top category of products */
+.maincontent {
+    /* position: fixed; */
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.category {
+    margin-left: 50px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.items {
+
+    padding: 24px 16px 16px 16px;
+    margin-left: 2rem;
+
+}
+
+.itemDetails img {
+    width: 50px;
+    height: 50px;
+
+}
+
+/* Slider styling */
+/* 
+.slider {
+    margin-top: 20px;
+    height: 140px;
+    cursor: pointer;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/470/80/image/4888eced2bba63f2.jpg?q=20);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+} */
+
+
+.slider{
+    margin-top: 1rem;
+
+}
+
+/* .slider img{
+    position: absolute;
+ 
+}
+ */
+
+
+
+
+/* Product details inforamtion */
+.productHeading {
+    padding: 20px;
+}
+
+.productType {
+    display: block;
+    margin-top: 20px;
+    background-color: white;
+  
+}
+
+.productDetails {
+    display: flex;
+    padding: 20px;
+    
+
+}
+
+#productBorder {
+    margin-left: 2rem;
+    /*  padding: 5px; */
+    border: 0.1px solid rgb(209, 209, 209);
+    border-radius: 5px;
+
+}
+
+.details {
+    display: inline;
+
+}
+
+.price {
+    font-weight: 600;
+    margin-left: 15px;
+    /* justify-content: center; */
+}
+
+.main {
+    display: flex;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+span {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.products {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid rgb(157, 157, 157);
+}
+.bold{
+    font-weight: 600;
+}
+a{
+    color: black;
+}
+
+
+/* footer */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+
+/*  .grid-container > div {
+  background-color: #aaa;
+  padding: 5px 0;
+  font-size: 50px;
+   align-items : center;
+} */
+
+.footer>a {
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.grid-container>div {
+    color: rgb(140, 140, 140);
+}
+
+div>p {
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    color: white;
+    margin: 5px auto;
+}
+
+.fa {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #161616;
+    color: white;
+}
+
+.fa-twitter {
+    background: #161616;
+    color: white;
+}
+
+
+.fa-youtube {
+    background: #161616;
+    color: white;
+}
+
+
+footer {
+    margin-top: 1rem;
+}
